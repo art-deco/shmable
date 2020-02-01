@@ -1,7 +1,7 @@
-import myNewPackage from '../src'
+import shmable from '../src'
 
 (async () => {
-  const res = await myNewPackage({
+  const res = await shmable({
     text: 'example',
   })
   console.log(res)

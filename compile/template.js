@@ -1,12 +1,12 @@
-const { _myNewPackage } = require('./mnp')
+const { _shmable } = require('./shmable')
 
 /**
- * @methodType {_myNewPackage.myNewPackage}
+ * @methodType {_shmable.shmable}
  */
-function myNewPackage(config) {
-  return _myNewPackage(config)
+function shmable(config) {
+  return _shmable(config)
 }
 
-module.exports = myNewPackage
+module.exports = shmable
 
 /* typal types/index.xml namespace */

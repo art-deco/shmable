@@ -1,6 +1,6 @@
 import '../types/externs'
-import myNewPackage from './'
+import shmable from './'
 
 module.exports = {
-  '_myNewPackage': myNewPackage,
+  '_shmable': shmable,
 }

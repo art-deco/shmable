@@ -1,11 +1,11 @@
-# my-new-package
+# @artdeco/shmable
 
-%NPM: my-new-package%
+%NPM: @artdeco/shmable%
 
-`my-new-package` is {{ description }}
+`@artdeco/shmable` is Consumer Of Babel Bug.
 
 ```sh
-yarn add my-new-package
+yarn add @artdeco/shmable
 ```
 
 ## Table Of Contents

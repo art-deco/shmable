@@ -1,10 +1,10 @@
 {
-  "_myNewPackage.myNewPackage": {
-    "link": "https://github.com/mnpjs/package#async-mynewpackageconfig-config-string",
-    "description": "{{ description }}"
+  "_shmable.shmable": {
+    "link": "https://github.com/shmablejs/package#async-mynewpackageconfig-config-string",
+    "description": "Consumer Of Babel Bug."
   },
-  "_myNewPackage.Config": {
-    "link": "https://github.com/mnpjs/package#type-config",
+  "_shmable.Config": {
+    "link": "https://github.com/shmablejs/package#type-config",
     "description": "Options for the program."
   }
 }

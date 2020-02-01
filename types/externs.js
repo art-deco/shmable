@@ -5,26 +5,26 @@
 
 /* typal types/index.xml externs */
 /** @const */
-var _myNewPackage = {}
+var _shmable = {}
 /**
  * Options for the program.
  * @record
  */
-_myNewPackage.Config
+_shmable.Config
 /**
  * A boolean option. Default `true`.
  * @type {boolean|undefined}
  */
-_myNewPackage.Config.prototype.shouldRun
+_shmable.Config.prototype.shouldRun
 /**
  * A text to return.
  * @type {string|undefined}
  */
-_myNewPackage.Config.prototype.text
+_shmable.Config.prototype.text
 
 /* typal types/api.xml externs */
 /**
- * {{ description }}
- * @typedef {function(!_myNewPackage.Config): !Promise<string>}
+ * Consumer Of Babel Bug.
+ * @typedef {function(!_shmable.Config): !Promise<string>}
  */
-_myNewPackage.myNewPackage
+_shmable.shmable

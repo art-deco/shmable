@@ -2,10 +2,10 @@ export {}
 
 /* typal types/api.xml namespace */
 /**
- * @typedef {_myNewPackage.myNewPackage} myNewPackage {{ description }}
- * @typedef {(config: !_myNewPackage.Config) => string} _myNewPackage.myNewPackage {{ description }}
+ * @typedef {_shmable.shmable} shmable Consumer Of Babel Bug.
+ * @typedef {(config: !_shmable.Config) => string} _shmable.shmable Consumer Of Babel Bug.
  */
 
 /**
- * @typedef {import('..').Config} _myNewPackage.Config
+ * @typedef {import('..').Config} _shmable.Config
  */

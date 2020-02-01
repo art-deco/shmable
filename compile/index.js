@@ -1,22 +1,22 @@
-const { _myNewPackage } = require('./mnp')
+const { _shmable } = require('./shmable')
 
 /**
- * {{ description }}
- * @param {!_myNewPackage.Config} config Options for the program.
+ * Consumer Of Babel Bug.
+ * @param {!_shmable.Config} config Options for the program.
  * @param {boolean} [config.shouldRun=true] A boolean option. Default `true`.
  * @param {string} [config.text] A text to return.
  * @return {Promise<string>}
  */
-function myNewPackage(config) {
-  return _myNewPackage(config)
+function shmable(config) {
+  return _shmable(config)
 }
 
-module.exports = myNewPackage
+module.exports = shmable
 
 /* typal types/index.xml namespace */
 /**
- * @typedef {_myNewPackage.Config} Config `＠record` Options for the program.
- * @typedef {Object} _myNewPackage.Config `＠record` Options for the program.
+ * @typedef {_shmable.Config} Config `＠record` Options for the program.
+ * @typedef {Object} _shmable.Config `＠record` Options for the program.
  * @prop {boolean} [shouldRun=true] A boolean option. Default `true`.
  * @prop {string} [text] A text to return.
  */
